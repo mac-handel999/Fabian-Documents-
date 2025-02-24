@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+body {
+    font-size: 15px;
+    font-family:Georgia, Helvetica, sans-serif;
+    background-color: wheat;
+    
+}
+
+
+
+
+.forms {
+  background: #42445A;
+  border: 2px solid #4A0000;
+  border-radius: 5px;
+}
+
+#login-btn {
+  width: 150px;
+  height: 35px;
+
+}
+
+ .toggle-btn-img {
+    width: 45px;
+    height: 43px;
+    border-radius: 50px;
+  }
+
+
+
+.top {
+  position: fixed;
+  margin: 08px;
+  left: 0px;
+  right: 380px;
+  bottom: 20px;
+  z-index: 1000;
+  border-radius: 60px;
+  width: 60px;
+  height: 50px;
+}
+
+#password {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid wheat;
+  border-radius: 20px;
+  background: #4A0000;
+  color: #fff;
+  box-shadow: 10px 8px 10px 8px black;
+
+}
+
+#password:focus {
+  background: wheat;
+  color: #000;
+  border: 3px solid #4A0000;
+}
+
+.login-div {
+  color: #000;
+  text-align: center;
+  background: wheat;
+  margin: 4px;
+  padding: 5px;
+  border: 3px solid #4A0000;
+  border-radius: 5px;
+  box-shadow: 6px 5px 6px 5px black;
+}
+
+.container {
+  margin: 10px;
+  padding: 7px;
+  background: #FFB814;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 10px 8px 10px 8px black;
+  box-shadow:10px 8px 10px 8px black;
+
+  overflow: hidden;
+  filter: drop-shadow(2px 2px 2px 2px red);
+
+
+  
+}
+
+.container:hover {
+  box-shadow:inset 10px 9.5px 10px 9.5px black;
+  color: #fff;
+  padding: 20px;
+
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color:#000;
+}
+
+button {
+  color: #fff;
+  margin: 8px;
+  padding: 6px;
+  background: #4A0000;
+  border: 2px solid wheat;
+  border-radius: 5px;
+  box-shadow: 6px 6px 5px 5px black;
+  
+}
+
+
+input::placeholder {
+  color: #fff;
+}
+
+.btns {
+  margin: 10px;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+footer {
+  margin: 0px;
+  padding: 10px;
+  color: black;
+   padding: 5.5px;
+  background: #4A0000;
+  color: #fff;
+  text-align: center;
+  
+
+}
