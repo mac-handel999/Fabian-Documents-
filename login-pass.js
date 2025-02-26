@@ -50,9 +50,9 @@ loginBtn.addEventListener('click', () => {
             window.open("Docs.html", "_self");
         }, 500); // 500 ms = 0.5 seconds
 
-        alert("Sing Praises🗣️....To The Lord👼");
+        alert("Welcome Back Boss🥰...FABIAN_CODES");
     } else {
-        alert("Wrong Password🤭, Access denied!😋");
+        alert("Wrong Password🤭, Access denied!😋.....Your Not..(FABIAN_CODES)");
         passwordInput.style.borderColor = "red";
     }
 });
